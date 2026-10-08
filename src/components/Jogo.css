@@ -1,17 +1,26 @@
-.bt-emoji{
-    background-color: rgb(41, 56, 83);
+.bt-emoji {
+    background-color: #1e293b;
+    border: 3px solid #6366f1;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px #00000055;
 }
 
-.p-emoji{
-    font-size: 200px;
+.bt-emoji:hover {
+    background-color: #334155;
+    transform: scale(1.05);
 }
 
-.jogo{
-min-width: 100vw;
-min-height: 100vh;
+.p-emoji {
+    font-size: 150px;
+    margin: 0;
+}
 
- background-color: darkslateblue;
- display: flex;
- justify-content: center;
- align-items: center;
+.jogo {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #111827, #312e81);
+    display: grid;
+    place-items: center;
 }

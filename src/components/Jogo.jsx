@@ -3,12 +3,18 @@ import './Jogo.css'
 
 function Jogo() {
     const[emoji, setEmoji] = useState('☢️')
-    let emojis = ['🛹','🎸','🍔','💀','🎌','❄️','👾','♠️','🕸️','🥷',]
+    let emojis = ['🛹','🎸','🍔','💀','🎌','❄️','👾','♠️','🕸️','🥷',
+                  '🔥','⚡','🌙','⭐','🍕','🎮','🚀','🐱','🐶','🦊',
+                  '🐼','🐸','🦁','🐯','🐨','🍎','🍉','🍩','🎯','🏆',
+                  '⚽','🏀','🎲','👽','🤖','👻','☠️','💎','☀️','🌵',
+                  '🎃','🎁','🎈','🎵','🎧','📷','🪐','🌋','🏹','🛡️',
+                  '🗡️','💰','🔮','🧩']
 
  function sortear(){
-    let i = Math.floor(Math.random()*10)
+    let i = Math.floor(Math.random()*54)
     setEmoji(emojis[i])
  }
+
   return (
     <div className="jogo">
        
